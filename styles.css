@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.header {
+    background-color: #1c1f27;   
+    border-bottom: 5px solid #2196f3; 
+}
+
+
+.header__contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+.header__logo span {
+    color: #2196f3; 
+}
+
+
+/*menu */
+.menu__lista {
+    list-style: none;  
+    display: flex;      
+    gap: 35px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: color 0.2s ease; 
+}
+.menu__link:hover {
+    color: #2196f3;
+}
+hero {
+   
+    background-image:
+        linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.55)), 
+        ("/images/images/cabecera.jpg");
+ 
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat;
+ 
+    min-height: 480px;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ 
+    padding: 40px 20px;
+    color: #ffffff;
+}
+ 
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    max-width: 900px;
+    margin-bottom: 20px;
+}
+ 
+.hero p {
+    font-size: 18px;
+    max-width: 700px;
+    line-height: 1.6;
+    color: #f0f0f0;
+}
+
