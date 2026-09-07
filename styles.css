@@ -11,7 +11,7 @@ body {
 
 .header {
     background-color: #1c1f27;   
-    border-bottom: 5px solid #2196f3; 
+    border-bottom: 5px solid #1c669f; 
 }
 
 
@@ -33,7 +33,7 @@ body {
 }
 
 .header__logo span {
-    color: #2196f3; 
+    color: #1c669f; 
 }
 
 
@@ -53,13 +53,13 @@ body {
     transition: color 0.2s ease; 
 }
 .menu__link:hover {
-    color: #2196f3;
+    color: #1c669f;
 }
-hero {
+.hero {
    
-    background-image:
-        linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.55)), 
-        ("/images/images/cabecera.jpg");
+       background-image:
+        linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.55)),
+        url("images/images/cabecera.jpg");
  
     background-size: cover;       
     background-position: center;  
