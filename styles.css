@@ -1,4 +1,4 @@
-
+/*=============menu Superior====================*/
 * {
     margin: 0;
     padding: 0;
@@ -36,8 +36,6 @@ body {
     color: #1c669f; 
 }
 
-
-/*menu */
 .menu__lista {
     list-style: none;  
     display: flex;      
@@ -55,6 +53,7 @@ body {
 .menu__link:hover {
     color: #1c669f;
 }
+/*=============Lobby====================*/
 .hero {
    
        background-image:
@@ -90,7 +89,7 @@ body {
     line-height: 1.6;
     color: #f0f0f0;
 }
-
+/*==============Barra suscripcion===============*/
 .boletin {
     background-color: #1c1f27;
  
@@ -144,3 +143,55 @@ body {
 .boletin button:hover {
     background-color: #c93e18;
 }
+
+/*==================Cuerpo================= */
+
+
+.servicios {
+    background-color: #f5f5f5; 
+ 
+    display: flex;
+    flex-wrap: wrap;           
+    justify-content: center;
+    gap: 60px;
+ 
+    padding: 60px 40px;
+}
+ 
+.servicio {
+    max-width: 280px;
+    text-align: center;
+}
+ 
+.servicio img {
+    width: 80px;      
+    height: auto;
+    margin-bottom: 20px;
+}
+ 
+.servicio h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #222222;
+}
+ 
+.servicio p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555555; 
+}
+ 
+/* 
+   FOOTER
+ */
+.footer {
+    background-color: #1293d4;
+    color: #ffffff;
+ 
+    text-align: center;
+    padding: 25px 20px;
+ 
+    font-size: 14px;
+}
+ 
