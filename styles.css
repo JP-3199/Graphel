@@ -244,7 +244,7 @@ body {
     gap: 30px;
  
     padding: 40px 30px;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
 }
  
 /* ================== Columna izquierda=============== */
@@ -259,7 +259,7 @@ body {
 }
  
 .tarjeta-servicio {
-    background-color: #e5e5e5;
+    background-color: #e6e6e6;
     padding: 25px 30px;
     margin-bottom: 15px;
 }
