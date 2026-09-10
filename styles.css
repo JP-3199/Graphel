@@ -8,7 +8,7 @@
 }
 
 body {
-     font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 .header {
@@ -20,7 +20,7 @@ body {
 .header__contenedor {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 30px;
+    padding: 20px 50px;
 
     display: flex;
     justify-content: space-between;
@@ -57,27 +57,26 @@ body {
 }
 /*=============Lobby====================*/
 .hero {
-   
-       background-image:
-        linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.55)),
-        url("img/cabecera.jpg");
- 
+    background-image:
+    linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.55)),
+    url("img/cabecera.jpg");
+
     background-size: cover;       
     background-position: center;  
     background-repeat: no-repeat;
- 
+
     min-height: 480px;
- 
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
- 
+
     padding: 40px 20px;
     color: #ffffff;
 }
- 
+
 .hero h1 {
     font-size: 48px;
     font-weight: bold;
@@ -98,35 +97,36 @@ body {
     display: flex;
     flex-wrap: wrap;         
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 85px;
  
-    padding: 30px 50px;
+    padding: 30px 80px;
 }
  
 .boletin h2 {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
+    padding-left: 30px;
 }
- 
+
 
 .boletin form {
     display: flex;
     gap: 0; 
 }
- 
+
 .boletin input[type="email"] {
     width: 280px;
     padding: 12px 16px;
     border: none;
     outline: none;
     font-size: 14px;
- 
+
 
     border-radius: 4px 0 0 4px;
 }
- 
+
 .boletin button {
     background-color: #e8491d; 
     color: #ffffff;
