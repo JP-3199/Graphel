@@ -1,5 +1,4 @@
-
-    /*==================================================================Estilos index=============================================================*/
+/*==================================================================Estilos index=============================================================*/
 /*=============menu Superior====================*/
 * {
     margin: 0;
@@ -57,10 +56,11 @@ body {
 }
 /*=============Lobby====================*/
 .hero {
-    background-image:
-    linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.55)),
-    url("img/cabecera.jpg");
-
+   
+       background-image:
+        linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.55)),
+        url("images/images/cabecera.jpg");
+ 
     background-size: cover;       
     background-position: center;  
     background-repeat: no-repeat;
@@ -390,3 +390,89 @@ body {
 
 
 
+.boletin form {
+    display: flex;
+    gap: 0; 
+}
+ 
+.boletin input[type="email"] {
+    width: 280px;
+    padding: 12px 16px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+ 
+
+    border-radius: 4px 0 0 4px;
+}
+ 
+.boletin button {
+    background-color: #e8491d; 
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+ 
+    border-radius: 0 4px 4px 0; 
+ 
+    transition: background-color 0.2s ease;
+}
+ 
+
+.boletin button:hover {
+    background-color: #c93e18;
+}
+
+/*==================Cuerpo================= */
+
+
+.servicios {
+    background-color: #f5f5f5; 
+ 
+    display: flex;
+    flex-wrap: wrap;           
+    justify-content: center;
+    gap: 60px;
+ 
+    padding: 60px 40px;
+}
+ 
+.servicio {
+    max-width: 280px;
+    text-align: center;
+}
+ 
+.servicio img {
+    width: 80px;      
+    height: auto;
+    margin-bottom: 20px;
+}
+ 
+.servicio h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #222222;
+}
+ 
+.servicio p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555555; 
+}
+ 
+/* 
+   FOOTER
+ */
+.footer {
+    background-color: #1293d4;
+    color: #ffffff;
+ 
+    text-align: center;
+    padding: 25px 20px;
+ 
+    font-size: 14px;
+}
+ 
