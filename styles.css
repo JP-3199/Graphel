@@ -1,5 +1,5 @@
 
- /*==================================================================Estilos index=============================================================*/
+    /*==================================================================Estilos index=============================================================*/
 /*=============menu Superior====================*/
 * {
     margin: 0;
@@ -83,7 +83,7 @@ body {
     max-width: 900px;
     margin-bottom: 20px;
 }
- 
+
 .hero p {
     font-size: 18px;
     max-width: 700px;
@@ -93,16 +93,16 @@ body {
 /*==============Barra suscripcion===============*/
 .boletin {
     background-color: #1c1f27;
- 
+
     display: flex;
     flex-wrap: wrap;         
     align-items: center;
     justify-content: space-between;
     gap: 85px;
- 
+
     padding: 30px 80px;
 }
- 
+
 .boletin h2 {
     color: #ffffff;
     font-size: 22px;
@@ -135,12 +135,12 @@ body {
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
- 
+
     border-radius: 0 4px 4px 0; 
- 
+
     transition: background-color 0.2s ease;
 }
- 
+
 
 .boletin button:hover {
     background-color: #c93e18;
@@ -151,136 +151,136 @@ body {
 
 .servicios {
     background-color: #f5f5f5; 
- 
+
     display: flex;
     flex-wrap: wrap;           
     justify-content: center;
     gap: 60px;
- 
+
     padding: 60px 40px;
 }
- 
+
 .servicio {
     max-width: 280px;
     text-align: center;
 }
- 
+
 .servicio img {
     width: 80px;      
     height: auto;
     margin-bottom: 20px;
 }
- 
+
 .servicio h3 {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 12px;
     color: #222222;
 }
- 
+
 .servicio p {
     font-size: 14px;
     line-height: 1.6;
     color: #555555; 
 }
- 
+
 /* ======================================================================================
    FOOTER
- ===============================================================================*/
+===============================================================================*/
 .footer {
     background-color: #1293d4;
     color: #ffffff;
- 
+
     text-align: center;
     padding: 25px 20px;
- 
+
     font-size: 14px;
 }
- /*=========================================================================Servicios==========================================================*/
+/*=========================================================================Servicios==========================================================*/
 .servicios {
     background-color: #f5f5f5; 
- 
+
     display: flex;
     flex-wrap: wrap;      
     justify-content: center;
     gap: 60px;
- 
+
     padding: 60px 40px;
 }
- 
+
 .servicio {
     max-width: 280px;
     text-align: center;
 }
- 
+
 .servicio img {
     width: 80px;     
     height: auto;
     margin-bottom: 20px;
 }
- 
+
 .servicio h3 {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 12px;
     color: #222222;
 }
- 
+
 .servicio p {
     font-size: 14px;
     line-height: 1.6;
     color: #555555;
 }
- 
+
 /* =========================================
-   PÁGINA SERVICIOS: contenedor
-   ==================================*/
+    PÁGINA SERVICIOS: contenedor
+|   ==================================*/
 .contenido-servicios {
     max-width: 1200px;
     margin: 0 auto;   
- 
+
     display: flex;
     align-items: flex-start; 
     gap: 30px;
- 
+
     padding: 40px 30px;
     background-color: #f5f5f5;
 }
- 
+
 /* ================== Columna izquierda=============== */
 .lista-servicios {
     flex: 2; 
 }
- 
+
 .lista-servicios__titulo {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
 }
- 
+
 .tarjeta-servicio {
     background-color: #e5e5e5;
     padding: 25px 30px;
     margin-bottom: 15px;
 }
- 
+
 .tarjeta-servicio h3 {
     font-size: 18px;
     margin-bottom: 12px;
 }
- 
+
 .tarjeta-servicio p {
     font-size: 14px;
     line-height: 1.6;
     color: #333333;
     margin-bottom: 12px;
 }
- 
+
 .tarjeta-servicio__precio {
     margin-bottom: 0 !important;
     font-weight: 600;
 }
- 
+
 /* ================== Columna derecha ===================== */
 .tarjeta {
     flex: 1;
@@ -295,7 +295,9 @@ body {
 .contenido {
     display: flex;
     gap: 30px;                 /* espacio entre las dos columnas */
-    padding: 80px;
+    padding: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
     align-items: flex-start;  /* que no se estiren a la misma altura */
     justify-content: space-around;
 }
@@ -305,10 +307,10 @@ body {
 }
 
 .columna-lateral {
-    flex: 1;   /* ocupa 1 "parte" -> queda más angosta */
+    flex: 1.5;   /* ocupa 1 "parte" -> queda más angosta */
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 7px; /*separación entre la tarjeta y el mapa*/
 }
 
 .columna-principal h1 {
@@ -341,10 +343,6 @@ body {
     margin-bottom: 15px;
 }
 
-.columna-lateral p {
-    line-height: 1.6;
-}
-
 .columna-principal form{
     flex: 3;
 }
@@ -354,6 +352,41 @@ body {
     color: #fff;
     padding: 25px;
 }
+
+.imagen-mapa{
+    width: 100%;
+    height: 265px;
+}
+
+.form-contacto{
+    display: flex;
+    flex-direction: column; /*organiza los campos verticalmente*/
+}
+
+.campo{
+    display: flex; /*para que el input alarge los laterales*/
+    flex-direction: column; /*el nombre de cada campo queda encima del input*/
+    margin-bottom: 10px ; /*margen en la parte de abajo*/
+}
+.campo label{
+    font-size: 15px;
+}
+
+.campo input{
+    padding: 10px;
+    border: 1px solid;
+}
+
+.form-contacto button{
+    background-color: #e8491d;
+    padding: 12px;
+    color: #f0f0f0;
+    border: none;
+}
+
+
+
+
 
 
 
